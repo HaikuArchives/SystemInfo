@@ -1,0 +1,35 @@
+SystemInfo beta 2 for BeOS by Brent Miszalski (misza@ihug.com.au)
+
+This is a little app I wrote to show some stats in a pretty way :D
+
+It currently only shows:
+-CPU 0 usage
+-CPU 1 usage (this is omitted if you have 1 cpu of course)
+-Memory usage
+-Boot disk used space
+-Uptime
+
+Bugs
+-The replicant handle (dragger) doesn't show up on the replicant after restarting tracker (after disabling "Show replicants" in the deskbar. PLEASE SOMEONE TELL ME HOW TO FIX THIS! :-) Thanks.
+-You may think it's a little too fast updating the cpu usage, well it's a feature! :^) This is so the ui can have that nice blurred/smooth effect.
+-As always, if things behave badly, try deleting the settings file (rm -rf ~/config/settings/SystemInfoReplicant) and restarting SystemInfo.
+
+Todo
+-Fix replicant bug (above)
+-Add Colour prefs. (side note: a little class is included that I used in digitalclock for colour prefs, it's not integrated into the app yet though)
+
+Version History
+b2.0
+-SystemInfo now detects whether you have 2 cpus or not. So single cpu n00bs can use this app too :P
+-Can now move SystemInfo around the screen by just clicking and dragging on it
+-Uptime now reported correctly. (if not let me know)
+
+b1.1
+-SystemInfo is now a replicant. Put it on your desktop! :-)
+
+b1.0
+-Initial Release
+
+
+Enjoy! 8^)
+-misza
