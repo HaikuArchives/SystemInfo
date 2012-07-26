@@ -1,12 +1,19 @@
 SystemInfo for Haiku - A system monitor for Haiku
 
-	by Disreali (based on original by Brent "misza" Miszalski)
+	By Disreali
+	Based on original by Brent "misza" Miszalski circa 2002
 
+I found this app on a archive of old BeOS software.
+ http://pulkomandy.tk/~beosarchive/
+I thought it was cool because it reminded me of TORSMO for *NIX based
+systems, which is quite useful.  I thought that with some modifications SystemInfo could be more useful and that others would like it also.
 
-I found this app on a archive of old BeOS software and thought it was cool.
-It reminded me of TORSMO for *NIX based systems, which is quite useful.
-I thought that with some modifications SystemInfo could be more useful and
-that others would like it also.
+I contacted the original author in July 2012 and recived permision from 
+him to release new versions under a permissive lisence.  
+
+I am using this project as a way to learn about programming on Haiku.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+It could set things on fire ;)
 
 Bugs:
 - Currently, it is an App without a window which means:
@@ -17,9 +24,8 @@ Bugs:
 - If a volume name is more than 6-7 characters it will overlap the stausbar.
 - bugs listed by original author
 
-
 ToDo:
-(I have no Idea if the following are possible, but it will be fun to learn.)
+I have no Idea if the following are possible, but it will be fun to learn.
 
 - Rename CPU_0 -> CPU_1, etc. (Humans start counting with 1)
 - Add more cpu's. max of 8 for now. 
@@ -37,48 +43,8 @@ ToDo:
 - Mouse secondary-click Context-menu?
 - New Icon?
 
+Version History:
+	July 2012
+Recieved permision from original author to release new versions.
+Original source uploaded to Github.  http://github.com/disreali/SystemInfo
 
-================
-Original README
-================
-SystemInfo beta 2 for BeOS by Brent Miszalski
-
-This is a little app I wrote to show some stats in a pretty way :D
-
-It currently only shows:
--CPU 0 usage
--CPU 1 usage (this is omitted if you have 1 cpu of course)
--Memory usage
--Boot disk used space
--Uptime
-
-Bugs
--The replicant handle (dragger) doesn't show up on the replicant after 
- restarting tracker (after disabling "Show replicants" in the deskbar. 
- PLEASE SOMEONE TELL ME HOW TO FIX THIS! :-) Thanks.
--You may think it's a little too fast updating the cpu usage, well it's a 
- feature! :^) This is so the ui can have that nice blurred/smooth effect.
--As always, if things behave badly, try deleting the settings file 
- (rm -rf ~/config/settings/SystemInfoReplicant) and restarting SystemInfo.
-
-Todo
--Fix replicant bug (above)
--Add Colour prefs. (side note: a little class is included that I used in 
- digitalclock for colour prefs, it's not integrated into the app yet though)
-
-Version History
-b2.0
--SystemInfo now detects whether you have 2 cpus or not. So single cpu n00bs can
- use this app too :P
--Can now move SystemInfo around the screen by just clicking and dragging on it
--Uptime now reported correctly. (if not let me know)
-
-b1.1
--SystemInfo is now a replicant. Put it on your desktop! :-)
-
-b1.0
--Initial Release
-
-
-Enjoy! 8^)
--misza

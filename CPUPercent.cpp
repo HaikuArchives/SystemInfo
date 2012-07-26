@@ -1,7 +1,11 @@
-/*************************************************/
-/* SystemInfoReplicant                           */
-/* By Brent Miszalski (misza@ihug.com.au)		 */
-/*************************************************/
+/*
+ *	SystemInfoReplicant
+ *
+ *	Copyright 2002 Brent Miszalski
+ *	Copyright 2012 Disreali		disreali[at]users[dot]sourceforge[dot]net
+ *	All rights reserved. Distributed under the terms of the MIT License.
+ *
+ */
 
 
 #include "CPUPercent.h"
