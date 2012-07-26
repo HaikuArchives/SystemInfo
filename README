@@ -9,7 +9,7 @@ I thought that with some modifications SystemInfo could be more useful and
 that others would like it also.
 
 Bugs:
-- Currently, it is Ann app without a window which means:
+- Currently, it is an App without a window which means:
 	- You need close App by clicking on its DeskBar entry and selecting 
 		"Quit application".
 	- Can't move App by handle. Must click inside window.
@@ -41,7 +41,7 @@ ToDo:
 ================
 Original README
 ================
-SystemInfo beta 2 for BeOS by Brent Miszalski (misza@ihug.com.au)
+SystemInfo beta 2 for BeOS by Brent Miszalski
 
 This is a little app I wrote to show some stats in a pretty way :D
 
