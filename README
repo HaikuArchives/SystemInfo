@@ -5,15 +5,16 @@ SystemInfo for Haiku - A system monitor for Haiku
 
 I found this app on a archive of old BeOS software.
  http://pulkomandy.tk/~beosarchive/
-I thought it was cool because it reminded me of TORSMO for *NIX based
-systems, which is quite useful.  I thought that with some modifications SystemInfo could be more useful and that others would like it also.
 
-I contacted the original author in July 2012 and recived permision from 
-him to release new versions under a permissive lisence.  
+I thought it was cool because it reminded me of TORSMO for *NIX based
+systems, which is quite useful.  I also thought that with some modifications SystemInfo could be even more useful and that others would like it.
+
+I contacted the original author in July 2012 and received permission from 
+him to release new versions under a permissive license.  
 
 I am using this project as a way to learn about programming on Haiku.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-It could set things on fire ;)
+It could set things on fire? ;)
 
 Bugs:
 - Currently, it is an App without a window which means:
@@ -21,7 +22,7 @@ Bugs:
 		"Quit application".
 	- Can't move App by handle. Must click inside window.
 - Currently the App is aways on top of other windows. 
-- If a volume name is more than 6-7 characters it will overlap the stausbar.
+- If a volume name is more than 6-7 characters it will overlap the statusbar.
 - bugs listed by original author
 
 ToDo:
@@ -31,20 +32,22 @@ I have no Idea if the following are possible, but it will be fun to learn.
 - Add more cpu's. max of 8 for now. 
 - Add a Settings context-click menu.
 - Do not have app window "Always on Top".  Allow user to select.
-- Make It a proper App with window and tab with dragable replicant handle.
-- Investigate making it an app like LaunchBox with a hideable window border.
+- Make It a proper App with window and tab with drag-able replicant handle.
+- Investigate making it an app like LaunchBox with a hide-able window border.
 - Move the HDD box one line down from the label it does not over-lap.
 - Move the Uptime one line down from label so it does not overlap.
 - Auto-detect the number of CPU's on a system instead of hard-coding 2.
 	See how Activity Monitor does this.
-- Auto-detect system backgroud colour and use that instead of hard-coding.
+- Auto-detect system background colour and use that instead of hard-coding.
 - Auto-detect all mounted HDD.  Should still just show /boot for now.
 - Embed 2x2 WorkSpace an bottom of window?
 - Mouse secondary-click Context-menu?
 - New Icon?
+- is_computer_on_fire()?? (^_^)
+
 
 Version History:
 	July 2012
-Recieved permision from original author to release new versions.
+Received permission from original author to release new versions.
 Original source uploaded to Github.  http://github.com/disreali/SystemInfo
 
