@@ -1,20 +1,22 @@
 2012-07-25
 
+ToDo:
 I have no Idea if the following are possible, but it will be fun to learn.
 
-- Rename CPU_0 -> CPU_1, etc. (most Humans start counting with 1)
-- Add more cpu's. max of 8 for now.
-- Auto-detect the number of CPU's on a system instead of hard-coding 2?
-	See how Activity Monitor and Pulse does this.
-- Add a Settings context-click menu.
-- Do not have app window "Always on Top".  Allow user to select.
-- Make It a proper App with window and tab with dragable replicant handle.
-- Investigate making it an app like LaunchBox with a hideable window border.
-- Move the HDD box one line down from the label it does not over-lap.
-- Move the Uptime one line down from label so it does not overlap.
-- Auto-detect system backgroud colour and use that instead of hard-coding.
+- Rename CPU_0 -> CPU_1, etc. (Humans start counting with 1)
+- Add more cpu's. max of 8 for now. 
+- Auto-detect the number of CPU's on a system instead of hard-coding 2.
+	See how Activity Monitor does this.
+- Do not have app window "Always on Top".
+- Make It a proper App with window and tab and a drag-able replicant handle.
+- Investigate making it an app like LaunchBox with a hide-able window border.
 - Auto-detect all mounted HDD.  Should still just show /boot for now.
+- Move the Uptime one line down from label so it does not overlap.
+	or...  decrease font size. that may work also.
+- Auto-detect system background colour and use that instead of hard-coding.
+
 - Embed 2x2 WorkSpace an bottom of window?
+- Add a Settings context-click menu?
 - Mouse secondary-click Context-menu?
 - New Icon?
-
+- is_computer_on_fire()?? (^_^)
